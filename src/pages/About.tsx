@@ -13,7 +13,7 @@ const About = () => {
           <span className="grid h-9 w-9 place-items-center rounded-lg bg-primary text-primary-foreground">
             <Code2 className="h-5 w-5" />
           </span>
-          Code Together
+          SYNCODE
         </Link>
         <button onClick={() => navigate(user ? '/dashboard' : '/login')}
           className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:opacity-90">
@@ -25,7 +25,7 @@ const About = () => {
         <p className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-primary">About the project</p>
         <h1 className="max-w-2xl text-4xl font-bold tracking-tight sm:text-5xl">A shared workspace for building software together.</h1>
         <p className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground">
-          Code Together brings collaborative editing, project files, team chat and revision history into one focused coding workspace.
+          SYNCODE brings collaborative editing, project files, team chat, revision history, and code execution into one focused browser-based workspace.
         </p>
         <div className="mt-12 grid gap-4 sm:grid-cols-2">
           {[
@@ -42,7 +42,7 @@ const About = () => {
           ))}
         </div>
         <p className="mt-12 border-t border-border pt-6 text-xs leading-5 text-muted-foreground">
-          This is a customized version of an open-source project. Original contributors and licensing notices are retained in the repository documentation and license files.
+          SYNCODE is maintained as an independently customized project. Third-party components and inherited code remain subject to their respective licenses; see the repository's LICENSE file and dependency notices.
         </p>
       </section>
     </main>
