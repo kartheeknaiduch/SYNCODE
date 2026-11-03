@@ -43,7 +43,7 @@ export const TitleBar: React.FC<TitleBarProps> = ({ className }) => {
       </div>
 
       <div className="absolute left-1/2 -translate-x-1/2 flex items-center gap-2 text-[12px] pointer-events-none">
-        <span className="text-muted-foreground">CodeCollab</span>
+        <span className="text-muted-foreground">SYNCODE</span>
         <span className="text-muted-foreground">-</span>
         <span className="text-foreground/90">{activeTab ? activeTab.name : 'Visual Studio Code Style Editor'}</span>
         {activeTab?.isDirty && <span className="text-warning">●</span>}
