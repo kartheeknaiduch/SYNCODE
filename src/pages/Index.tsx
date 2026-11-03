@@ -35,7 +35,7 @@ const features = [
   {
     icon: Terminal,
     title: 'Integrated Terminal',
-    description: 'Run your code directly in the browser with a fully-featured terminal environment.',
+    description: 'Run supported commands and inspect output from the integrated workspace terminal.',
   },
   {
     icon: MessageSquare,
@@ -44,8 +44,8 @@ const features = [
   },
   {
     icon: GitBranch,
-    title: 'Version Control',
-    description: 'Review saved file revisions and restore context from previous autosaves.',
+    title: 'File Revision History',
+    description: 'Review saved file revisions and recover context from previous autosaves.',
   },
   {
     icon: Zap,
@@ -78,7 +78,6 @@ const Index = () => {
         
         <nav className="hidden md:flex items-center gap-8 font-mono text-sm text-muted-foreground select-none">
           <a href="#features" className="hover:text-primary transition-colors">[FEATURES]</a>
-          <a href="#" className="hover:text-primary transition-colors">[PRICING]</a>
           <a href="/about" className="hover:text-primary transition-colors">[ABOUT]</a>
         </nav>
 
@@ -107,7 +106,7 @@ const Index = () => {
           <h1 className="text-[5rem] md:text-[6.5rem] font-black font-heading uppercase tracking-tighter leading-[0.85] flex flex-col items-start">
             <span className="heavy-glitch" data-text="SYNCODE">SYNCODE</span>
             <span className="bg-gradient-to-r from-primary via-secondary to-accent-tertiary bg-clip-text text-transparent transform">
-              
+              COLLABORATE
             </span>
             <span className="text-accent-tertiary">IN REAL TIME</span>
           </h1>
@@ -121,7 +120,7 @@ const Index = () => {
               onClick={onSignIn}
               className="border border-primary text-primary px-6 py-3 uppercase hover:bg-primary/10 transition-colors flex items-center gap-2 shadow-[0_0_15px_rgba(0,255,136,0.2)]"
             >
-              START FREE TRIAL &rarr;
+              GET STARTED &rarr;
             </button>
             <button onClick={onEnterEditor} className="text-muted-foreground hover:text-white uppercase tracking-wider transition-colors">
               WATCH DEMO
@@ -279,7 +278,7 @@ const Index = () => {
             Precision Engineering
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Built for teams that demand zero friction and maximum throughput. Our infrastructure scales as fast as your ideas.
+            A shared development environment for teams that want their editor, project files, communication, and execution tools in one place.
           </p>
         </div>
 
@@ -402,7 +401,7 @@ const Index = () => {
         <div className="p-12 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 border border-border">
           <h2 className="text-3xl font-bold mb-4">Ready to collaborate?</h2>
           <p className="text-muted-foreground mb-8">
-            Start coding with your team in real-time. No setup required.
+            Create a workspace, invite collaborators, and start building together.
           </p>
           <button onClick={onSignIn} className="border border-primary text-primary px-8 py-3 uppercase hover:bg-primary/10 transition-colors flex items-center gap-2 mx-auto shadow-[0_0_15px_rgba(0,255,136,0.2)]">
             Get Started Free
