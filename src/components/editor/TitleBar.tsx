@@ -25,9 +25,9 @@ export const TitleBar: React.FC<TitleBarProps> = ({ className }) => {
       <div className="flex items-center gap-4 min-w-0">
         <div className="flex items-center gap-2">
           <div className="w-4 h-4 rounded-sm bg-primary flex items-center justify-center text-[9px] font-semibold text-primary-foreground">
-            C
+            S
           </div>
-          <span className="text-[12px] font-medium text-foreground/90">CodeCollab</span>
+          <span className="text-[12px] font-medium text-foreground/90">SYNCODE</span>
         </div>
 
         <div className="flex items-center gap-1 text-[12px] text-foreground/80">
