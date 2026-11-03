@@ -2,8 +2,8 @@
 
 A browser-based collaborative coding workspace where developers can create projects, edit files together, chat, review saved file revisions, and use optional AI-assisted coding tools.
 
-> **Customization and attribution**
-> This is a personal UI/documentation customization of the upstream project [`ThakurDivyanshsingh-77/code_together`](https://github.com/ThakurDivyanshsingh-77/code_together). The original application structure and inherited functionality remain attributable to the upstream author. The visual refinements and this README update were prepared for **Kartheek Naidu** ([`@kartheeknaiduch`](https://github.com/kartheeknaiduch)). This is not a claim of original authorship of the upstream code.
+> **Project attribution**
+> This repository is a customized working copy derived from an existing public project. The original application structure and inherited functionality remain subject to their respective rights and licensing terms. This repository is maintained by **Kartheek Naidu** ([`@kartheeknaiduch`](https://github.com/kartheeknaiduch)); this does not claim original authorship of the inherited code. [View the upstream source repository](https://github.com/ThakurDivyanshsingh-77/code_together).
 
 ## What was customized
 
@@ -526,9 +526,9 @@ Set `VITE_API_URL` explicitly for predictable deployments.
 No license file is currently included in this repository.
 
 
-## Upstream attribution and license
+## Source and licensing
 
-This working copy is based on the public repository [ThakurDivyanshsingh-77/code_together](https://github.com/ThakurDivyanshsingh-77/code_together). The original repository did not include a license file in the downloaded archive. This customization therefore does not claim ownership of the upstream code or grant redistribution rights. Confirm the upstream author's permission and applicable license before publishing or redistributing a fork. The About page intentionally avoids presenting upstream contributors as the authors of this customized copy.
+This working copy incorporates code from an existing public project. The source repository did not include a license file in the downloaded archive. This customization does not claim ownership of inherited code or grant redistribution rights. Confirm the applicable license and obtain any required permission before publishing or redistributing a derivative. [View the upstream source repository](https://github.com/ThakurDivyanshsingh-77/code_together).
 
 
 ## Maintainer
