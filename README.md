@@ -364,7 +364,7 @@ Add optional AI and realtime service credentials only if those integrations are 
 ## Maintainer
 
 **Kartheek Naidu**  
-GitHub: [@kartheeknaiduch](https://github.com/kartheeknaiduch)
+GitHub: @kartheeknaiduch
 
 ---
 
