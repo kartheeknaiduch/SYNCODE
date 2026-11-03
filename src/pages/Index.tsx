@@ -73,7 +73,7 @@ const Index = () => {
       <header className="relative z-10 flex items-center justify-between px-8 py-6">
         <div className="flex items-center gap-2 font-mono text-primary font-bold text-xl tracking-tight">
           <span className="text-primary">&gt;_</span>
-          <span>CODE_TOGETHER.</span>
+          <span>SYNCODE.</span>
         </div>
         
         <nav className="hidden md:flex items-center gap-8 font-mono text-sm text-muted-foreground select-none">
@@ -105,15 +105,15 @@ const Index = () => {
           </div>
           
           <h1 className="text-[5rem] md:text-[6.5rem] font-black font-heading uppercase tracking-tighter leading-[0.85] flex flex-col items-start">
-            <span className="heavy-glitch" data-text="CODE">CODE</span>
+            <span className="heavy-glitch" data-text="SYNCODE">SYNCODE</span>
             <span className="bg-gradient-to-r from-primary via-secondary to-accent-tertiary bg-clip-text text-transparent transform">
-              TOGETHER
+              
             </span>
             <span className="text-accent-tertiary">IN REAL TIME</span>
           </h1>
 
           <div className="mt-8 font-mono text-muted-foreground leading-relax border-l-2 border-primary/50 pl-4 py-1 text-sm md:text-base max-w-lg">
-            <p><span className="text-primary">&gt;</span> Code Together brings your team together with powerful tools designed to streamline workflows, boost productivity, and drive results immediately.</p>
+            <p><span className="text-primary">&gt;</span> SYNCODE brings your team into one workspace for collaborative editing, project files, team chat, revision history, and code execution.</p>
           </div>
 
           <div className="flex flex-wrap items-center gap-6 mt-10 font-mono text-sm">
@@ -219,7 +219,7 @@ const Index = () => {
               <div className="w-3 h-3 border border-success bg-success/20" />
             </div>
             <div className="flex-1 text-center text-xs font-mono text-muted-foreground uppercase">
-              collaborative-editor_v2.0 — CodeTogether
+              SYNCODE — Collaborative Editor
             </div>
           </div>
           
@@ -291,7 +291,7 @@ const Index = () => {
               <div className="max-w-md">
                 <h3 className="text-2xl font-bold mb-3 text-white tracking-tight">Real-time Sync Engine</h3>
                 <p className="text-sm text-slate-400 font-medium leading-relaxed">
-                  Our proprietary protocol ensures every keystroke is propagated globally in under 50ms. No conflicts, just seamless flow.
+                  Live collaboration keeps connected teammates in sync as they edit shared files.
                 </p>
               </div>
               <div className="w-10 h-10 flex items-center justify-center text-slate-600">
@@ -329,7 +329,7 @@ const Index = () => {
             </div>
             <h3 className="text-xl font-bold mb-3 text-white tracking-tight mt-auto">Secure Rooms</h3>
             <p className="text-sm text-slate-400 font-medium leading-relaxed">
-              E2E encryption for all collaborative sessions. Your source code remains yours alone.
+              Project access is controlled through authenticated accounts and collaborator roles.
             </p>
           </div>
 
@@ -355,7 +355,7 @@ const Index = () => {
             <div className="w-full flex-1 flex flex-col justify-center">
               <h3 className="text-2xl font-bold mb-3 text-white tracking-tight">Integrated Studio Chat</h3>
               <p className="text-sm text-slate-400 font-medium leading-relaxed">
-                Don't switch tabs. Discuss logic, share snippets, and review PRs directly within the environment.
+                Discuss code and share updates with your team without leaving the workspace.
               </p>
             </div>
           </div>
@@ -370,26 +370,26 @@ const Index = () => {
           
           <div className="rounded-2xl bg-[#1e232d]/40 border border-white/5 p-8 relative flex flex-col">
             <p className="text-[15px] italic text-slate-300 mb-8 leading-relaxed flex-1">
-              "CodeCollab has completely transformed our remote pair programming sessions. The latency is practically invisible."
+              "SYNCODE brings our project files, editor, and team conversations together in one workspace."
             </p>
             <div className="flex items-center gap-4 mt-auto">
-              <img src="https://i.pravatar.cc/100?img=47" alt="Sarah Chen" className="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 shadow-sm" />
+              <img src="https://i.pravatar.cc/100?img=47" alt="Collaborator" className="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 shadow-sm" />
               <div className="flex flex-col">
                 <span className="text-sm font-bold text-white leading-tight">Sarah Chen</span>
-                <span className="text-[10px] uppercase tracking-wider text-slate-500 font-semibold mt-0.5">Senior Dev, Vercel</span>
+                <span className="text-[10px] uppercase tracking-wider text-slate-500 font-semibold mt-0.5">SYNCODE workspace user</span>
               </div>
             </div>
           </div>
 
           <div className="rounded-2xl bg-[#1e232d]/40 border border-white/5 p-8 relative flex flex-col">
             <p className="text-[15px] italic text-slate-300 mb-8 leading-relaxed flex-1">
-              "The UI is a work of art. It's the first collaborative tool that actually feels like it was built for professional developers."
+              "A focused workspace makes it easier to review code, share ideas, and keep development moving."
             </p>
             <div className="flex items-center gap-4 mt-auto">
-              <img src="https://i.pravatar.cc/100?img=11" alt="Marcus Thorne" className="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 shadow-sm" />
+              <img src="https://i.pravatar.cc/100?img=11" alt="Collaborator" className="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 shadow-sm" />
               <div className="flex flex-col">
                 <span className="text-sm font-bold text-white leading-tight">Marcus Thorne</span>
-                <span className="text-[10px] uppercase tracking-wider text-slate-500 font-semibold mt-0.5">Lead Architect, Linear</span>
+                <span className="text-[10px] uppercase tracking-wider text-slate-500 font-semibold mt-0.5">SYNCODE workspace user</span>
               </div>
             </div>
           </div>
@@ -416,12 +416,10 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <Code className="w-4 h-4" />
-            <span>Code_Together — Built for elite developers</span>
+            <span>SYNCODE — Collaborative Coding Workspace</span>
           </div>
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
-            <a href="#" className="hover:text-foreground transition-colors">Terms</a>
-            <a href="#" className="hover:text-foreground transition-colors">GitHub</a>
+            <span>Collaborate. Build. Ship.</span>
           </div>
         </div>
       </footer>
